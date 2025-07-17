@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rápido y Sabroso</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rápido y Sabroso</h1>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Bienvenido</h2>
+      <p>Por favor ingresa tus datos</p>
+      <form action="guardar.php" method="POST">
+        <label>Nombre</label>
+        <input type="text" name="nombre" required />
+      
+        <label>Apellido Paterno</label>
+        <input type="text" name="paterno" required />
+      
+        <label>Apellido Materno</label>
+        <input type="text" name="materno" required />
+      
+        <label>Edad</label>
+        <input type="number" name="edad" required />
+      
+        <button type="submit">Continuar</button>
+        <a href="listar.php">Ver lista de clientes</a>
+      </form>
+      
+    </section>
+  </main>
+   <br>
+  
+</body>
+</html>
